@@ -10,7 +10,6 @@
 	$string3 = "$string, $string2?";
 	echo "$string3 \n" . '<br>';
 	echo "This should be another line...." . '<br>';
-	
 
 
 	// Strings methods : 
