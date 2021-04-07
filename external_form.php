@@ -1,29 +1,3 @@
-<!-- <!-- <?php
-// This is $_POST returned is a associative array having 
-// keys as the name of the input values..
-
-// if(isset($_POST['submit']))
-// {
-// 	echo "Yes, form is submitted <br>";
-
-
-// 	$username = $_POST['name'];
-// 	$password = $_POST['pwd'];
-
-
-// 	// echo "Name : $username <br>";
-// 	// echo "Username : $password <br>";
-
-
-// 	$minimum_limit  = 8;
-// 	if($_POST['pwd'] < $minimum_limit)
-// 	{
-// 		echo "Password is too short ...  <br>";
-// 	}
-// }
-
-?>  -->-->
-
 
 <!DOCTYPE html>
 <html>
@@ -32,7 +6,7 @@
 </head>
 <body>
 
-
+	<!-- Sending the name and password to another file process_form.php -->
 	<form action="process_form.php" method="post">
 		<div>
 			<label for="role">Role</label>
@@ -55,4 +29,3 @@
 	</form>
 
 </body>
-</html>
